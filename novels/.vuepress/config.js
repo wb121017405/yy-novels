@@ -1,6 +1,6 @@
 const fs = require("fs");
 // 选择所有目录名渲染出侧边栏
-const novels_lib = fs.readdirSync("./novels").splice(4);
+const novels_lib = fs.readdirSync("./novels").splice(5);
 let slidebar_entend = [];
 novels_lib.map((item, index) => {
   slidebar_entend[index] = {
@@ -17,9 +17,10 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "推书格式", link: "/" },
+      { text: "必看", link: "/must.md" },
       { text: "YY作者", link: "/YY-Author.md" },
-      { text: "模板", link: "/TPL.md" }
+      { text: "github", link: "https://github.com/wb121017405/yy-novels/" }
     ],
-    sidebar: slidebar_entend
+    sidebar: [['/','简介'],...slidebar_entend]
   }
 };
