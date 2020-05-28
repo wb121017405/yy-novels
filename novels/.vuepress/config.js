@@ -13,7 +13,7 @@ novels_lib.map((item, index) => {
 module.exports = {
   // 引入百度统计
   head: [
-    ["link", { rel: "icon", href: "/favorite.icon" }],
+    ["link", { rel: "icon", href: "/favorite.ico" }],
     [
       "script",
       {},
