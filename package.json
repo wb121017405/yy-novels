@@ -1,0 +1,15 @@
+{
+  "name": "yy-novels",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wb121017405/yy-novels.git",
+  "author": "wb121017405 <121017405@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev novels",
+    "build": "vuepress build novels"
+  },
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  }
+}
