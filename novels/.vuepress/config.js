@@ -34,6 +34,7 @@ module.exports = {
       { text: "推书格式", link: "/" },
       { text: "必看", link: "/must.md" },
       { text: "YY作者", link: "/YY-Author.md" },
+      { text: "更新记录", link: "https://github.com/wb121017405/yy-novels/commits/master" },
       { text: "github", link: "https://github.com/wb121017405/yy-novels/" }
     ],
     sidebar: [["/", "简介"], ...slidebar_entend]
