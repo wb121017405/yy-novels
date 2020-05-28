@@ -11,8 +11,21 @@ novels_lib.map((item, index) => {
   };
 });
 module.exports = {
+  head: [
+    [
+      "script",
+      {},
+      `var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?3a3169e5d886751cf060391e574f1ce0";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();`
+    ]
+  ],
   title: "yy小说",
-  base:'/yy-novels/',
+  base: "/yy-novels/",
   description: "脆皮鸡们的yy小说",
   themeConfig: {
     nav: [
@@ -21,6 +34,6 @@ module.exports = {
       { text: "YY作者", link: "/YY-Author.md" },
       { text: "github", link: "https://github.com/wb121017405/yy-novels/" }
     ],
-    sidebar: [['/','简介'],...slidebar_entend]
+    sidebar: [["/", "简介"], ...slidebar_entend]
   }
 };
