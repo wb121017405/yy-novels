@@ -11,7 +11,9 @@ novels_lib.map((item, index) => {
   };
 });
 module.exports = {
+  // 引入百度统计
   head: [
+    ["link", { rel: "icon", href: "/favorite.icon" }],
     [
       "script",
       {},
@@ -35,5 +37,19 @@ module.exports = {
       { text: "github", link: "https://github.com/wb121017405/yy-novels/" }
     ],
     sidebar: [["/", "简介"], ...slidebar_entend]
-  }
+  },
+  plugins: [
+    [
+      'vuepress-plugin-comment',
+      {
+        choosen: 'valine',
+        // options选项中的所有参数，会传给Valine的配置
+        options: {
+          el: '#valine-vuepress-comment',
+          appId: '8aW60X6Gmv1Dy8APCuaBf2Ye-gzGzoHsz',
+          appKey: 'u1dpOD0936ykPg8JkXE5x76Q'
+        }
+      }
+    ]
+  ]
 };
