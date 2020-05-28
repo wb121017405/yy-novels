@@ -12,6 +12,7 @@ novels_lib.map((item, index) => {
 });
 module.exports = {
   title: "yy小说",
+  base:'/yy-novels/',
   description: "脆皮鸡们的yy小说",
   themeConfig: {
     nav: [
