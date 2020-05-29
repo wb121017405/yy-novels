@@ -13,7 +13,7 @@ novels_lib.map((item, index) => {
 module.exports = {
   // 引入百度统计
   head: [
-    ["link", { rel: "icon", href: "/favorite.ico" }],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
     [
       "script",
       {},
@@ -34,7 +34,10 @@ module.exports = {
       { text: "推书格式", link: "/" },
       { text: "必看", link: "/must.md" },
       { text: "YY作者", link: "/YY-Author.md" },
-      { text: "更新记录", link: "https://github.com/wb121017405/yy-novels/commits/master" },
+      {
+        text: "更新记录",
+        link: "https://github.com/wb121017405/yy-novels/commits/master"
+      },
       { text: "github", link: "https://github.com/wb121017405/yy-novels/" }
     ],
     sidebar: [["/", "简介"], ...slidebar_entend]
@@ -42,13 +45,16 @@ module.exports = {
   plugins: [
     [
       // 评论插件
-      'vuepress-plugin-comment',
+      "vuepress-plugin-comment",
       {
-        choosen: 'valine',
+        choosen: "valine",
         options: {
-          el: '#valine-vuepress-comment',
-          appId: '8aW60X6Gmv1Dy8APCuaBf2Ye-gzGzoHsz',
-          appKey: 'u1dpOD0936ykPg8JkXE5x76Q'
+          el: "#valine-vuepress-comment",
+          appId: "8aW60X6Gmv1Dy8APCuaBf2Ye-gzGzoHsz",
+          appKey: "u1dpOD0936ykPg8JkXE5x76Q",
+          meta:['nick','mail'],
+          path:'<%- frontmatter.to.path %>',
+          placeholder: "来喷我呀笨蛋！"
         }
       }
     ]
