@@ -10,6 +10,11 @@ novels_lib.map((item, index) => {
     })
   };
 });
+function getTime(){
+  let date=new Date();
+  let now_time = date.getFullYear()+'-'+parseInt(date.getMonth()+1)+'-'+date.getDate()+' '+date.getHours()+':'+date.getMinutes()+':'+date.getSeconds();
+  return now_time;
+}
 module.exports = {
   // 引入百度统计
   head: [
@@ -35,7 +40,7 @@ module.exports = {
       { text: "必看", link: "/must.md" },
       { text: "YY作者", link: "/YY-Author.md" },
       {
-        text: "更新记录",
+        text:"最近更新时间："+ getTime(),
         link: "https://github.com/wb121017405/yy-novels/commits/master"
       },
       { text: "github", link: "https://github.com/wb121017405/yy-novels/" }
