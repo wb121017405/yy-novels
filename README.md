@@ -12,5 +12,6 @@
 * docker
 * jenkins
 
-[参考链接vuepress](https://blog.csdn.net/wb121017405/article/details/106491856)
-[参考链接Jenkins配置](https://blog.csdn.net/wb121017405/article/details/106496345)
+1. [参考链接vuepress](https://blog.csdn.net/wb121017405/article/details/106491856)
+
+2. [参考链接Jenkins配置](https://blog.csdn.net/wb121017405/article/details/106496345)
