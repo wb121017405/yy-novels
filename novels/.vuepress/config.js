@@ -36,7 +36,7 @@ module.exports = {
   description: "脆皮鸡们的yy小说",
   themeConfig: {
     nav: [
-      { text: "推书格式", link: "/" },
+      { text: "简介", link: "/" },
       { text: "必看", link: "/must.md" },
       { text: "YY作者", link: "/YY-Author.md" },
       {
