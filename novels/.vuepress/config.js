@@ -50,7 +50,7 @@ module.exports = {
   plugins: [
     [
       // 评论插件
-      "vuepress-plugin-comment",
+      "@mr-hope/comment",
       {
         choosen: "valine",
         options: {
