@@ -50,16 +50,17 @@ module.exports = {
   plugins: [
     [
       // 评论插件
-      "@mr-hope/comment",
+      "vuepress-plugin-comment",
       {
         choosen: "valine",
         options: {
+          type: "valine",
           el: "#valine-vuepress-comment",
           appId: "8aW60X6Gmv1Dy8APCuaBf2Ye-gzGzoHsz",
           appKey: "u1dpOD0936ykPg8JkXE5x76Q",
           meta:['nick','mail'],
           path:'<%- frontmatter.to.path %>',
-          placeholder: "来喷我呀笨蛋！"
+          placeholder: "到此一游😊"
         }
       }
     ]
