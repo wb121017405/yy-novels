@@ -1,6 +1,6 @@
 # 负防退散！⛈️🤢
 
-![aPK16f.jpg](https://s1.ax1x.com/2020/07/27/aPK16f.jpg)
+![缩略图](https://s1.ax1x.com/2020/07/27/aPK16f.jpg)
 
 ## 《》
 
