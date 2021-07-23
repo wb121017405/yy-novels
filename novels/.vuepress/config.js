@@ -1,6 +1,6 @@
 const fs = require("fs");
-// 选择所有目录名渲染出侧边栏
-const novels_lib = fs.readdirSync("./novels").splice(5);
+// 选择所有目录名渲染出侧边栏，此处需要过滤其他类别文件.md六个或者说是有.的文件或文件夹
+const novels_lib = fs.readdirSync("./novels").filter(item=>item.indexOf(".")===-1);
 let slidebar_entend = [];
 novels_lib.map((item, index) => {
   slidebar_entend[index] = {
