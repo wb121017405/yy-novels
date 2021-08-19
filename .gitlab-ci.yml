@@ -17,6 +17,7 @@ pages: #随便起的名字
   stage: deploy #当前阶段为deploy
   script: #deploy阶段运行的命令
     - rm -rf public/* #linux命令，递归无询问删除public目录下所有文件- mv dist/* public #将dist目录下的所有文件都移动到public目录下
+    - mv novels/.vuepress/dist/* public
   artifacts: #工件缓存
     expire_in: 3 days #时效为3天
     paths: #路径
