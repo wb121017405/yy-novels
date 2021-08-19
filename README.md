@@ -2,7 +2,7 @@
 
 > 此项目为个人统计的Y吧小说，欢迎吧友提出意见或者参与修改内容
 
-## 技术栈(github pages加载慢，所以jenkens到自己的服务器)
+## 技术栈(github pages加载慢，所以jenkens到自己的服务器。服务器无了，现在是在gitee)
 
 * vuepress
 
