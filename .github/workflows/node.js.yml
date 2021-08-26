@@ -16,6 +16,9 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: set proxy
+        run: yarn config set registry https://registry.npm.taobao.org
+
       - name: install
         run: yarn install
 
