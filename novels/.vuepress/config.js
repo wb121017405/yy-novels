@@ -38,6 +38,7 @@ module.exports = {
     nav: [
       { text: "简介", link: "/" },
       { text: "必看", link: "/must.md" },
+      { text: "所说", link: "https://suoshuo.top" },
       { text: "正在看", link: "/Reading.md" },
       { text: "YY作者", link: "/YY-Author.md" },
       {
