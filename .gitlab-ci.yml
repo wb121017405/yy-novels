@@ -1,5 +1,5 @@
 building: #自己随便命名的
-  image: node:latest #node镜像为最新版的，最好指定版本号
+  image: node:14.18.1 #node镜像为最新版的，最好指定版本号
   stage: build #当前stage阶段为build
   script: #build阶段运行的脚本
     - yarn #根据package.json来安装依赖 progress设为false是为了不打印安装的具体进度，no optional是为了跳过npm推荐的但不是编译必须的，也没有写在package.json里一些依赖，比如说查看源代码等
