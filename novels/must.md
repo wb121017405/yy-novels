@@ -16,8 +16,6 @@
 
 ### 7.《无限之猎杀》- 说不出的悲伤淡不了的情
 
-### 8.《问道红尘》- 姬叉
-
 ## 几个实用书单🍖
 
 1. [优书网·风萤月-专注后宫万万年](https://www.yousuu.com/booklist/54fef334fe4e2df6a5ee41dd?sort=score)
