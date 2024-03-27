@@ -3,7 +3,7 @@ FROM node:lts-slim
 WORKDIR /usr/src/app/
 USER root
 COPY package.json ./
-RUN yarn
+RUN npm install
 
 COPY ./ ./
 

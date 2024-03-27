@@ -17,10 +17,10 @@ jobs:
           persist-credentials: false
 
       - name: install
-        run: yarn install
+        run: npm install
 
       - name: Build
-        run:  yarn build
+        run:  npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
